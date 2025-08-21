@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start_body {
+    width: 360px;
+    height: 640px;
+    background: url("./Images/Enviroment/morningbg.png");
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    align-items: center;    /* center horizontally */
+    justify-content: center; /* center vertically */
+    font-family: "Pixelify sans", sans-serif;
+    font-size: 50px;
+    color: chocolate;
+}

@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme_body {
+    width: 360px;
+    height: 640px;
+    background: url("./Images/Enviroment/morningbg.png");
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    align-items: center;    /* center horizontally */
+    justify-content: center; /* center vertically */
+}
+
+#div_theme
+{
+    padding: 0px 30px;
+    font-family: "Pixelify Sans", "sans-serif";
+    font-size: 30px;
+    color: white;
+    background-image: radial-gradient(ellipse, orange, rgb(255, 213, 134));
+    border-radius: 10px;
+}
+
+#flappy, #ghoul{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;   /* adjust */
+    height: 20%;  /* adjust */
+    border: 1px solid aliceblue;
+    font-family: "Pixelify Sans", "sans-serif";
+    font-size: 20px;
+    color: white;
+    background-image: url("./Images/Enviroment/morningbg.png");
+    background-size: contain;
+}
+
+#ghoul{
+    background-image: url("./Images/Enviroment/nightbg.jpeg");
+    background-size: contain;
+}
