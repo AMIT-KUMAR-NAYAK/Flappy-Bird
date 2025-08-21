@@ -1,7 +1,14 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    height: 100vh;
 }
 
 #start_body {
